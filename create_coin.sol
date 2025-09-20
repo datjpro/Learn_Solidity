@@ -8,7 +8,7 @@ contract Firstcoin{
 
     constructor() {
         minter = msg.sender;
-    }
+    }   
 
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
